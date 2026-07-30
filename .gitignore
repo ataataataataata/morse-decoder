@@ -1,0 +1,41 @@
+# Build directories
+build/
+build*/
+out/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Compiled object files / binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
