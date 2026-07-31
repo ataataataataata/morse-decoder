@@ -4,6 +4,7 @@
 #include "Renderer.h"
 #include <string>
 #include "MorseInput.h"
+#include <SDL2/SDL_ttf.h>
 
 class Application{
     public:
