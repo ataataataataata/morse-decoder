@@ -64,9 +64,9 @@ void Application::Run(){
             if(letter)
             {
                 std::cout << letter.value() << std::endl;
-                m_MorseCode.clear();
 
             }
+            m_MorseCode.clear();
         }
 
 
