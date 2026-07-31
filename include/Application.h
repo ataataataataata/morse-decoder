@@ -20,4 +20,5 @@ class Application{
         std::string m_MorseCode ="";
         Uint32 m_LastSymbolTime = 0;
         bool m_Running = false;
-};
+        std::string m_Text="";
+    };

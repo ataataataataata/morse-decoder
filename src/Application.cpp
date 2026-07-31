@@ -63,8 +63,7 @@ void Application::Run(){
             auto letter = MorseTranslator::DecodeLetter(m_MorseCode);
             if(letter)
             {
-                std::cout << letter.value() << std::endl;
-
+                m_Text+=letter.value();
             }
             m_MorseCode.clear();
         }
